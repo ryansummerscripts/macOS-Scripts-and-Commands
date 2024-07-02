@@ -1,0 +1,5 @@
+Check Detailed Network Activity:
+
+===========
+sudo nettop
+===========

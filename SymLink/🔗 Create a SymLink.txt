@@ -1,0 +1,31 @@
+=================================================
+ln -s <Path To Folder/File> <Path To Destination>
+=================================================
+
+OR
+
+======================================================
+sudo ln -s <Path To Folder/File> <Path To Destination>
+======================================================
+
+
+
+------------Notes------------------
+
+Type into terminal:
+
+ln -s (Source folder/file) (Destination)
+
+If permissions are denied, use 
+
+sudo ln -s (Source folder/file) (Destination)
+
+1. Drag Source folder of alias (‘Space’ gets added automatically after dragging)
+2. Drag Destination folder for Alias to be created in. Hit enter.
+
+
+
+Example:
+=================================================================================================
+sudo ln -s /Users/username/Downloads /Users/username/Desktop 
+=================================================================================================

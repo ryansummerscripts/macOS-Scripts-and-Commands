@@ -1,0 +1,5 @@
+Check Install Logs
+
+============================
+tail -f /var/log/install.log
+============================

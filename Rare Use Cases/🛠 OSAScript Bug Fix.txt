@@ -1,0 +1,48 @@
+Rare OSAScript Bug Fix:
+
+
+https://www.reddit.com/r/MacOS/comments/f37ybt/osascript_cant_open_default_scripting_component/
+
+
+Open two terminal windows and run these commands at the same time:
+
+===================================================
+sudo fs_usage -w -f filesys osalang | grep Library/
+===================================================
+
+And
+
+==========
+osalang -L
+==========
+
+
+Then locate broken .component file and delete
+
+
+Done.
+
+
+
+
+Script Editor Scripts for testing:
+=================================================================
+display dialog "Hello, world!" buttons {"OK"} default button "OK"
+=================================================================
+
+OR
+
+====
+beep
+====
+
+
+Terminal Tests:
+============================================
+osascript -e 'tell app "Finder" to activate' 
+============================================
+
+=================================================
+sudo osascript -e 'tell app "Finder" to activate' 
+=================================================
+

@@ -1,0 +1,9 @@
+#Enable Handoff
+
+===============================================================================================
+defaults write com.apple.coreservices.useractivityd.plist ActivityAdvertisingAllowed -bool true
+===============================================================================================
+
+=============================================================================================
+defaults write com.apple.coreservices.useractivityd.plist ActivityReceivingAllowed -bool true
+=============================================================================================

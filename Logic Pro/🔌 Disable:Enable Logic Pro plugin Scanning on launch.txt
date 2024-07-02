@@ -1,0 +1,13 @@
+Disable/Enable Logic Pro plugin Scanning on launch:
+
+
+Disable:
+======================================================================
+defaults write com.apple.logic10 AudioUnitAutoScanAtLaunch -bool false
+======================================================================
+
+
+Enable:
+=====================================================================
+defaults write com.apple.logic10 AudioUnitAutoScanAtLaunch -bool true
+=====================================================================

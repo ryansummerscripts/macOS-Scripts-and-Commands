@@ -1,0 +1,11 @@
+
+To see: 
+===========================
+tmutil listlocalsnapshots /
+===========================
+
+
+To delete: 
+================================
+sudo tmutil deletelocalsnapshots
+================================

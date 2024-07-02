@@ -1,0 +1,6 @@
+
+Remove Extended Attributes:
+
+========
+xattr -c 
+========

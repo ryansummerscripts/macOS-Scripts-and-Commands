@@ -1,0 +1,17 @@
+
+List a .pkg's installer contents in Terminal before installing:
+
+=======================
+pkgutil --payload-files
+=======================
+
+See a .pkg's installer contents before installing & output to a directory:
+===============================================================
+pkgutil --expand <pathto.pkg> <pathtoutputdirectory>
+===============================================================
+
+Example:
+
+===================================================================================================================================
+pkgutil --expand /Volumes/Installer.pkg /Users/username/Desktop/PKGList/list
+===================================================================================================================================

@@ -1,0 +1,137 @@
+Common Commands:
+
+
+=========================
+sudo chmod 755 </filepath>
+
+=========================	
+rwx r-x r-x
+
+=========================
+sudo chmod 644 </filepath>
+=========================	
+rw- r-- r--
+
+=========================
+sudo chmod 777 </filepath>
+=========================	
+rwx rwx rwx
+
+=========================
+sudo chmod +x </filepath>
+=========================	
+Adds execute permissions to the file filename for all users.
+
+=========================
+sudo chmod u+x </filepath>
+=========================	
+Adds execute permissions to the file filename for the owner only.
+
+=========================
+sudo chmod g-w </filepath>
+=========================	
+Removes write permissions from the file filename for the group.
+
+=========================
+sudo chmod o+r </filepath>
+=========================	
+Adds read permissions to the file filename for others.
+
+
+
+
+
+
+
+
+
+Example Commands:
+
+=========================
+sudo chmod 755 </filepath>
+=========================	
+Sets the file filename to be readable, writable, and executable by the owner, and readable and executable by the group and others.
+
+=========================
+sudo chmod 644 </filepath>
+=========================	
+Sets the file filename to be readable and writable by the owner, and readable by the group and others.
+
+=========================
+sudo chmod 777 </filepath>
+=========================	
+Sets the file filename to be readable, writable, and executable by everyone.
+
+=========================
+sudo chmod +x </filepath>
+=========================	
+Adds execute permissions to the file filename for all users.
+
+=========================
+sudo chmod u+x </filepath>
+=========================	
+Adds execute permissions to the file filename for the owner only.
+
+=========================
+sudo chmod g-w </filepath>
+=========================	
+Removes write permissions from the file filename for the group.
+
+=========================
+sudo chmod o+r </filepath>
+=========================	
+Adds read permissions to the file filename for others.
+
+
+
+Commands Explanation Chart:
+---------------------------------------------------------------------
+Command		Description
+---------------------------------------------------------------------
+chmod		Change the permissions of a file or directory.
+sudo chmod	Change the permissions with superuser (root) privileges.
+
+
+
+
+
+Numeric (Octal) Permission Representation:
+-----------------------------------------------------
+Number	Permission	Symbol	Description
+-----------------------------------------------------
+0	---		0	No permission
+1	--x		1	Execute only
+2	-w-		2	Write only
+3	-wx		3	Write and execute
+4	r--		4	Read only
+5	r-x		5	Read and execute
+6	rw-		6	Read and write
+7	rwx		7	Read, write, execute
+
+
+Octal Permission Combinations:
+----------------------------------------------------
+Permissions	Octal Value	Explanation
+----------------------------------------------------
+rwxr-xr-x	755		Owner: read, write, execute; Group: read, execute; Others: read, execute
+rwxrwxrwx	777		Owner, group, others: read, write, execute
+rw-r--r--	644		Owner: read, write; Group: read; Others: read
+rw-rw-r--	664		Owner: read, write; Group: read, write; Others: read
+
+
+
+
+Explanation of Symbols:
+-----------------------
+Symbol	Description
+-----------------------
+
+u	User (owner)
+g	Group
+o	Others
+r	Read
+w	Write
+x	Execute
++	Add permission
+-	Remove permission
+=	Set exact permission, removing others

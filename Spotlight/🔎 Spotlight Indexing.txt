@@ -1,0 +1,42 @@
+=
+
+Turn Spotlight indexing off:
+=====================
+sudo mdutil -a -i off
+=====================
+
+
+Turn Spotlight indexing on:
+====================
+sudo mdutil -a -i on
+====================
+
+
+provides detailed real-time monitoring of the mds_stores process:
+======================================
+sudo fs_usage -w -f filesys mds_stores
+======================================
+
+
+disable Spotlight indexing on a specified volume:
+=========================================
+sudo mdutil -d </Volumes/YourVolumeName/>
+=========================================
+
+
+create a file that instructs macOS to prevent Spotlight from indexing a specific directory:
+=====================================================
+sudo touch </path/to/directory/>.metadata_never_index
+=====================================================
+
+
+create a file that instructs macOS to prevent Spotlight from indexing a specific volume:
+==========================================================
+sudo touch </Volumes/YourVolumeName/>.metadata_never_index
+==========================================================
+
+
+load and start the mds (metadata server) daemon in macOS:
+=================================================================================
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+=================================================================================

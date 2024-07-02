@@ -1,0 +1,5 @@
+#Disable Recent Applications in Dock
+
+====================================================================
+defaults write com.apple.dock show-recents -bool false; killall Dock
+====================================================================

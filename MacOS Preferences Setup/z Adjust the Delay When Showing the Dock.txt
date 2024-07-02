@@ -1,0 +1,22 @@
+#Disable the Delay When Showing the Dock
+
+defaults write com.apple.Dock autohide-delay -float 0; killall Dock
+
+#OR
+
+defaults write com.apple.dock autohide-time-modifier -float 0.15; killall Dock
+
+#OR
+
+#back to default
+
+defaults delete com.apple.dock autohide-delay; killall Dock
+
+#OR
+
+defaults write com.apple.dock autohide-delay -int 0
+
+#&
+
+defaults write com.apple.dock autohide-time-modifier -float 0.4
+killall Dock

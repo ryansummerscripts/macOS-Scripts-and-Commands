@@ -1,0 +1,36 @@
+
+3 steps
+
+Edit hosts file:
+====================
+sudo nano /etc/hosts
+====================
+
+
+Remove the existing cache:
+============================
+sudo dscacheutil -flushcache
+============================
+
+&
+
+===============================
+sudo killall -HUP mDNSResponder
+===============================
+
+
+--------Notes-------------
+
+How to block a host site using the Terminal App
+
+01. Open up Terminal in /Applications/Utilities.
+02. In the command line, type in "sudo nano /etc/hosts". 
+03. When asked, type your admin password.
+04. In the screen that will appear, you’ll see the host database for your computer.
+05. Using your down arrow, go to the bottom, right under where it says, "127.0.0.1 localhost".
+06. Type in "127.0.0.1		{address to be blocked}” 
+07. On a new line, type in "127.0.0.1	www.{address to be blocked}" (this is for extra measure).
+08. Now, hold down Control + “o”. This will save the changes to the host database.
+09. Hit “Return” and then Control + “X” to exit the screen.
+10. Remove the existing cache by typing in “sudo dscacheutil -flushcache” & “sudo killall -HUP mDNSResponder” in the command line, this refreshes the existing cache on the host database.)
+11. You should receive an “Unable to connect” error message when you go to the address to be now (Unless using Safari's "Hide My IP from Trackers" or iCloud Private Relay).

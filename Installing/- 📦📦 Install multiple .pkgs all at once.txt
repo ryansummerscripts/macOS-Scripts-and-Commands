@@ -1,0 +1,14 @@
+Installing Multiple .pkgs
+
+
+1. With Terminal, navigate to the folder with the .pkg files by typing:
+
+===================================
+cd <path/to/folder/with/installers>
+=================================== 
+
+2. Install with Terminal via loop command below:
+
+===============================================================
+for pkg in *.pkg; do sudo installer -pkg "$pkg" -target /; done
+===============================================================
