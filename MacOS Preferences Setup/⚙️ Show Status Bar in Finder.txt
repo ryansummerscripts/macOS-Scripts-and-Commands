@@ -1,0 +1,6 @@
+
+#Show Status Bar in Finder
+
+========================================================================
+defaults write com.apple.finder ShowStatusBar -bool true; killall Finder
+========================================================================

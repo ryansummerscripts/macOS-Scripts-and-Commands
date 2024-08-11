@@ -1,0 +1,3 @@
+#Disable QuickLook Animations
+
+defaults write -g QLPanelAnimationDuration -float 0

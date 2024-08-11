@@ -1,0 +1,11 @@
+#Disable Auto-Update
+
+#Off
+==================================
+sudo softwareupdate --schedule off
+==================================
+
+#On
+=================================
+sudo softwareupdate --schedule on
+=================================
