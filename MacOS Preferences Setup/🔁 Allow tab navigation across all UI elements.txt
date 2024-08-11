@@ -1,7 +1,0 @@
-#Allow tab navigation across all UI elements
-
-#Enable Keyboard Access for All Controls
-
-========================================================
-defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
-========================================================

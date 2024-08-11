@@ -1,3 +1,0 @@
-#Show All File Extensions
-
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true

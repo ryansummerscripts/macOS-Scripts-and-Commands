@@ -1,3 +1,0 @@
-# Show Bluetooth in Menu Bar
-
-defaults write "com.apple.controlcenter" "NSStatusItem Visible Bluetooth" -bool true

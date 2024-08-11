@@ -1,7 +1,0 @@
-#Customize Time Format in Menu Bar
-
-#Set the menu bar clock to show hours, minutes, and seconds:
-
-=================================================================================
-defaults write com.apple.menuextra.clock DateFormat -string "EEE MMM d  HH:mm:ss"
-=================================================================================

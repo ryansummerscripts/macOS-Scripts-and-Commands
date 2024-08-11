@@ -1,5 +1,0 @@
-#Disable Screenshot Preview Thumbnails
-
-=========================================================================================
-defaults write com.apple.screencapture show-thumbnail -bool false; killall SystemUIServer
-=========================================================================================
