@@ -1,0 +1,3 @@
+# Click in the scrollbar to: Jump to the spot that's clicked
+
+defaults write -globalDomain AppleScrollerPagingBehavior -bool true

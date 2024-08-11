@@ -1,0 +1,4 @@
+#Use Plain Text Mode for New TextEdit Documents
+
+
+defaults write com.apple.TextEdit RichText -int 0

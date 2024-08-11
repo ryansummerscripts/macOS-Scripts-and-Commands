@@ -1,0 +1,3 @@
+# Minimize windows into their application’s icon
+
+defaults write com.apple.dock minimize-to-application -bool true
