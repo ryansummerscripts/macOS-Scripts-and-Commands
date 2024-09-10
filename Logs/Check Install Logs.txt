@@ -1,5 +1,16 @@
-Check Install Logs
+# Check Install Logs
 
+# View Install History in TextEdit
+=======================================================
+open -a TextEdit /Library/Receipts/InstallHistory.plist
+=======================================================
+
+# View System Logs in TextEdit
+=====================================
+open -a TextEdit /var/log/install.log
+=====================================
+
+# Trail System Logs in Terminal
 ============================
 tail -f /var/log/install.log
 ============================
