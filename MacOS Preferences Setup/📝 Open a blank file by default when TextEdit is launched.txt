@@ -1,0 +1,4 @@
+# Open a blank file by default
+
+
+defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
