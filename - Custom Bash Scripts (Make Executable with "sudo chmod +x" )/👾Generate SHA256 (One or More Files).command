@@ -2,11 +2,8 @@
 
 # Colors
 BOLD="\033[1m"
-CYAN="\033[1;36m"
 GREEN="\033[1;32m"
-YELLOW="\033[1;33m"
 RED="\033[1;31m"
-MAGENTA="\033[1;35m"
 RESET="\033[0m"
 
 # Function to generate SHA256 hashes
