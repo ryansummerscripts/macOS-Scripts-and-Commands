@@ -7,9 +7,9 @@ To run any of the .command files, you may first need to de-quarantine them as we
 
 By default, macOS flags & quarantines unsigned files downloaded from the internet, preventing these from being ran simply by double clicking them. If you wish to run a .command script by double clicking it, you can remove their quarantine attributes as well as sign the script.
 
-1. Copy the command below inside the "quotes" (including the space at the end of 'prep'):
-
-"function prep() {
+1. Copy the command below (including the space at the end of 'prep'):
+```
+function prep() {
     for file in "$@"; do
         sudo xattr -cr "$file" # clears all extended attributes
         sudo xattr -r -d com.apple.quarantine "$file" # removes the quarantine flag to bypass macOS Gatekeeper warnings
@@ -17,11 +17,12 @@ By default, macOS flags & quarantines unsigned files downloaded from the interne
         sudo chmod +x "$file" # grants execute permission to the file, allowing it to run
     done
 }
-prep " 
+prep 
+```
 
 2. Paste the command into terminal and drag and drop the .command file onto the Terminal window, then press Enter.
 Example:
-
+```
 function prep() {
     for file in "$@"; do
         sudo xattr -cr "$file"
@@ -31,6 +32,7 @@ function prep() {
     done
 }
 prep /Users/YOURUSERNAME/Downloads/NAMEOFCOMMAND.command
+```
 
 3. Type your password and hit Enter again (password will be invisible).
 
