@@ -1,7 +1,7 @@
 # macOS-Scripts-and-Commands
 Various collection of my personal macOS scripts and terminal commands
 
-To run any of the .command files, you may first need to de-quarentine them as well as make them executable.
+To run any of the .command files, you may first need to de-quarantine them as well as make them executable.
 
 🧼 De-Quarantining, Signing & Granting Execute Permissions:
 
