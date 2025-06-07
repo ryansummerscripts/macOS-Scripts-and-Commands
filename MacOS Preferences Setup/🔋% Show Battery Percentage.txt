@@ -1,0 +1,3 @@
+# Show Battery Percentage
+
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"; killall SystemUIServer

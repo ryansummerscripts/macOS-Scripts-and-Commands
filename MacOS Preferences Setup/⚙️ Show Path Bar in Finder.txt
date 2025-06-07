@@ -1,0 +1,5 @@
+# Show Path Bar in Finder
+
+======================================================================
+defaults write com.apple.finder ShowPathbar -bool true; killall Finder
+======================================================================

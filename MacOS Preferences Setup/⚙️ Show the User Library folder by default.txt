@@ -1,0 +1,5 @@
+# Show the User Library folder by default
+
+=====================================================================
+chflags nohidden ~/Library && xattr -d com.apple.FinderInfo ~/Library
+=====================================================================

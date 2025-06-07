@@ -1,0 +1,5 @@
+# Open a blank Text Edit doc by default
+
+============================================================================================
+defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
+============================================================================================

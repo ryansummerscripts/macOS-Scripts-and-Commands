@@ -1,0 +1,12 @@
+# Automatically Show Scroll Bars
+
+# Show
+==================================================================
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+==================================================================
+
+
+# Revert to defaults
+=====================================================================
+defaults write NSGlobalDomain AppleShowScrollBars -string "Automatic"
+=====================================================================

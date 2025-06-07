@@ -1,0 +1,9 @@
+# Auto-Hide Dock Instantly
+===========================================================================
+defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock
+===========================================================================
+
+# Revert to default
+===================================================================
+defaults delete com.apple.dock autohide-time-modifier; killall Dock
+===================================================================

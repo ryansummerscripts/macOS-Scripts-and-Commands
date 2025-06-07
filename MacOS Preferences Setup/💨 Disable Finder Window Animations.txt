@@ -1,0 +1,5 @@
+# Disable Finder Window Animations
+
+===============================================================================
+defaults write com.apple.finder DisableAllAnimations -bool true; killall Finder
+===============================================================================

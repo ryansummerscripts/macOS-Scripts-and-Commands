@@ -1,0 +1,11 @@
+# Minimize windows using: Scale effect
+
+# Set to 'Scale' effect
+=====================================================================
+defaults write com.apple.dock mineffect -string scale && killall Dock
+=====================================================================
+
+# Revert to 'Genie' effect
+=====================================================================
+defaults write com.apple.dock mineffect -string genie && killall Dock
+=====================================================================

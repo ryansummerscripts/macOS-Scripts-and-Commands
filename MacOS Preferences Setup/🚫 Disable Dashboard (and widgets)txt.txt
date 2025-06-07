@@ -1,0 +1,12 @@
+# Disable Dashboard (and widgets)
+
+
+# Disable
+========================================================================
+defaults write com.apple.dashboard mcx-disabled -bool TRUE; killall Dock
+========================================================================
+
+# Enable:
+=========================================================================
+defaults write com.apple.dashboard mcx-disabled -bool FALSE; killall Dock
+=========================================================================

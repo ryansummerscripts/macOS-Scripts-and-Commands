@@ -1,0 +1,5 @@
+# Disable Screenshot border and drop shadow
+
+========================================================================================
+defaults write com.apple.screencapture disable-shadow -bool true; killall SystemUIServer
+========================================================================================

@@ -1,0 +1,21 @@
+# Speed Up Mission Control Animations
+
+# Read Current settings
+======================================================
+defaults read NSGlobalDomain com.apple.springing.delay
+======================================================
+
+# Enable
+====================================================================
+defaults write NSGlobalDomain com.apple.springing.enabled -bool true
+====================================================================
+
+# Speed Up
+==================================================================================
+defaults write NSGlobalDomain com.apple.springing.delay -float 0.2; killall Finder
+==================================================================================
+
+# Revert to default
+==================================================================================
+defaults write NSGlobalDomain com.apple.springing.delay -float 0.5; killall Finder
+==================================================================================
