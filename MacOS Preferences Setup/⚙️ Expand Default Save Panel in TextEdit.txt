@@ -1,3 +1,0 @@
-#Expand Default Save Panel in TextEdit
-
-defaults write com.apple.TextEdit NSNavPanelExpandedStateForSaveMode -bool true

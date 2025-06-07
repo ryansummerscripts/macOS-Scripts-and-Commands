@@ -1,3 +1,0 @@
-#Add Volume Icon to Menu Bar
-
-defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextra.volume" -bool true; killall SystemUIServer

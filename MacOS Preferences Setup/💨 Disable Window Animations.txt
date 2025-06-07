@@ -1,5 +1,0 @@
-#Disable Window Animations
-
-============================================================================
-defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
-============================================================================

@@ -1,5 +1,0 @@
-#Set Default Finder to List View
-
-===================================================================================
-defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"; killall Finder
-===================================================================================

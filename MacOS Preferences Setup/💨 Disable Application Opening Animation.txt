@@ -1,4 +1,0 @@
-#Disable Application Opening Animation
-
-
-defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
