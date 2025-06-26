@@ -1,0 +1,12 @@
+# Dim Dock Icons of Hidden Apps
+
+Enable:
+===================================================================
+defaults write com.apple.dock showhidden -bool true && killall Dock
+===================================================================
+
+
+Disable:
+=========================================================
+defaults delete com.apple.dock showhidden && killall Dock
+=========================================================
